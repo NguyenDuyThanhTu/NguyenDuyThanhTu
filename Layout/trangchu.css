@@ -21,6 +21,9 @@ header .option{
   
 }
 
+.noidungbaiviet{
+    width:1350px;
+}
 .menu {
     padding-right:0px 30px;
     display:flex;
@@ -80,6 +83,23 @@ nav .btn-1{
     
 }
 
+.atm{
+    display:flex;
+    font-weight: 700;
+    color:rgb(52, 52, 52);
+}
+.pay-for-wallet img{
+    width:390px;
+}
+.pay-for-wallet{
+    display:flex;
+    width:1200px;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.uudaithanhtoan .border-solid-img{
+    border:solid 1px grey;
+}
 nav .banner .topbn{
     display: flex;
     justify-content: center;
@@ -146,7 +166,9 @@ font-size: 20px;
 nav #menu  .arrow1{
     position:absolute;
     margin-left: 177px;
+    cursor: pointer;
 }
+
 
 nav .left{
     display:flex;
@@ -155,7 +177,9 @@ nav .left{
     max-height:300px;
     /* height:min-content; */
 }
-
+nav .banner{
+    background-color: #f5f6f8;
+}
 nav .left .discount-package img{
     display:flex;
     margin-bottom: 10px;
@@ -194,7 +218,21 @@ nav section .deal,nav section .deal .info-deal,nav section .deal .time{
     opacity:70%;
 }
 
+nav .click-circle{
+    position:absolute;
+    right:37%;
+}
+.click-circle .manual_btn{
+    background-color: grey;
+}
 
+.click-circle .manual_btn:active{
+    background-color:red;
+}
+nav .click-circle input{
+    width:8px;
+    margin:0px 5px;  
+}
 
 
 
@@ -484,6 +522,9 @@ section nav .border-one-product p{
 }
 nav #deal-today{
 margin:20px 0px;
+}
+.deal-scrollbar .deal .info-deal p,.deal .info-deal span,.deal .info-deal {
+    font-size: 40px;
 
 }
 

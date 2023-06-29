@@ -4,6 +4,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
+nav{
+    margin-top: 80px;
+    width:1350px;
+}
 nav .cover{
     border:solid 1px grey;
     box-shadow: 0 0 4px rgba(0,0,0,.3);
@@ -89,13 +93,16 @@ nav .form .or{
 
   margin:10px;
 }
+
 nav .fb{
     background-color:#3b5998;
     padding:15px ;
     border-radius: 0.2em;
+    
 }
 nav .fb  img{
     max-width:30px;
+    margin:0px 30px;
 }
 nav .fb a{
     text-decoration: none;
@@ -103,4 +110,12 @@ nav .fb a{
     display:flex;
     align-items: center;
     
+}
+#gg{
+    background-color:#3f81f9;
+    margin:20px 0px;
+    
+}
+.support-calling{
+    margin-top: 80px;
 }
