@@ -439,7 +439,14 @@ nav .rating .rate-detail button{
   color:#ffffff;
   font-weight: 500;
   border:none;
+  cursor: pointer;
+ 
 }
+nav .rating .rate-detail button:active{
+ color:#ee1e25;
+}
+
+
 nav .rating .border-rating{
   border:solid 1px grey;
   margin-left: 0px;
