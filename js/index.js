@@ -20,7 +20,7 @@ var x=[
 
 var count = 0;
 setInterval(function () {
-    document.getElementById('img' + count).checked = true;
+    document.getElementById('hinhanh' + count).checked = true;
     count++;
     if (count > 15) {
         count = 1;

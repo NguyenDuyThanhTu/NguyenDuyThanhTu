@@ -59,10 +59,13 @@ header .input{
     border:solid 1px green;
 } */
 
+.list-option a p:hover{
+color:red;
+}
 .input-1 .search i{
     color:black;
-    position: absolute;
     right:46%;
+    position:absolute;
     top:14%;
     font-weight: 700;
     font-size: 20px;

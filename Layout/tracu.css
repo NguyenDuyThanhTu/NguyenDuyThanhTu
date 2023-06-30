@@ -4,8 +4,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
+body{
+    max-width:1300px;
+}
 section{
-    width:1350px;
+    width:1300px;
 }
 section .info{
     border:solid 1px grey;
