@@ -628,3 +628,7 @@ footer #phone-number a{
 footer #phone-number p{
     padding:0rem 1.4rem;
 }
+
+footer{
+    width:1350px;
+}
