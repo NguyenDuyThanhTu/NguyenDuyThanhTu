@@ -253,6 +253,7 @@ nav section .deal,nav section .deal .info-deal,nav section .deal .time{
     border:none;
     font-size:18px;
     opacity:70%;
+    cursor: pointer;
 }
 
 nav .click-circle{
