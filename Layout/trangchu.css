@@ -569,14 +569,17 @@ width:1300px;
 margin-top: 20px;
 }
 #deal-today .deal{
-    background-color: #d30018;
+    background-color: #cd0920;
     width:1220px;   
     border-radius: 0.6em 0.6em 0em 0em;
     display:flex;
     justify-content: center;
 }
-.deal-scrollbar .deal .info-deal p,.deal .info-deal span,.deal .info-deal {
+.deal-scrollbar .deal .info-deal p,.deal .info-deal span {
     font-size: 40px;
+    color:#ffffff !important;
+text-shadow: 4px 3px 3px red;
+font-weight: 700;
 
 }
 
